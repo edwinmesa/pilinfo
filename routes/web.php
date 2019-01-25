@@ -15,8 +15,8 @@ Route::get('/', 'SarController@index');
 
 Route::get('/inicio', 'SarController@index');
 
-Route::get('/nosotros', 'SarController@about');
+Route::get('/nosotros', 'PagesController@about');
 
-Route::get('/ubicacion', 'SarController@location');
+Route::get('/ubicacion', 'PagesController@location');
 
-Route::get('/foro', 'SarController@forum');
+Route::get('/foro', 'PagesController@forum');
