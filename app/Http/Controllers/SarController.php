@@ -85,19 +85,4 @@ class SarController extends Controller
         //
     }
 
-    public function about()
-    {
-        return view('about');
-    }
-
-    public function location()
-    {
-        return view('location');
-    }
-
-    public function forum()
-    {
-        return view('forum');
-    }
-
 }
