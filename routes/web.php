@@ -20,3 +20,5 @@ Route::get('/nosotros', 'PagesController@about');
 Route::get('/ubicacion', 'PagesController@location');
 
 Route::get('/foro', 'PagesController@forum');
+
+//Route::resource('post', 'SarController');
